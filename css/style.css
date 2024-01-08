@@ -1,0 +1,85 @@
+*{
+	font-family: Segoe WP Light;
+}
+
+a{
+	color: #000;
+	word-spacing: -13px;
+}
+
+nav{
+	box-shadow: none !important;
+}
+
+.navbar-brand{
+	font-size: 42px;
+}
+
+.nav-link{
+	color: #6c6c6c;
+	font-size: 20.35px;
+}
+
+.nav-link::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #5094F2;
+	transition: width .3s;
+}
+
+.nav-link:hover::after{
+	width: 100%;
+	transition: width .3s;
+}
+
+#head{
+	padding: 50px 50px;
+	width: 100%;
+	height: auto;
+	color: #fff;
+	line-height: 15px;
+	background: url(bg-header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#head button{
+	width: 175px;
+	height: 44px;
+	color: #fff;
+	background: #5094F2;
+	border: none;
+	font-size: 22.35px;
+}
+
+#designe{
+	background: #5094F2;
+	border-radius: 50%;
+}
+
+#work{
+	background: #D94748;
+	border-radius: 50%;
+}
+
+#shop{
+	background: #EBBB11;
+	border-radius: 50%;
+}
+
+@font-face {
+  font-family: Segoe-WP;
+  src:url(../font-family/segoe-wp.ttf);
+}
+
+@font-face {
+  font-family: Segoe WP Light;
+  src:url(../font-family/Segoe WP Light.ttf);
+}
+
+@font-face {
+  font-family: Segoe WP Regular;
+  src:url(../font-family/ofont.ru_Segoe WP.ttf);
+}
